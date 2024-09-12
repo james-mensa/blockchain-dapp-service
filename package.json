@@ -1,0 +1,24 @@
+{
+  "name": "Dapp project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npx hardhat run ./scripts/deploy.ts",
+    "bank": "ts-node ./scripts/script.ts",
+    "token": "ts-node ./scripts/token-script.ts",
+    "nft": "ts-node ./scripts/nft-script.ts",
+    "erc1155": "ts-node ./scripts/erc1155.ts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "hardhat": "^2.22.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "bignumber.js": "^9.1.2",
+    "make-runnable": "^1.4.1",
+    "ts-node": "^10.9.2",
+    "web3": "4.8",
+    "web3-utils": "^4.3.0",
+    "web3-validator": "^2.0.6"
+  }
+}
