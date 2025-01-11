@@ -1,5 +1,3 @@
-#  Overview
-
 **This project explores Web3 decentralized solutions 🌐, smart contract interaction 🔗, and tokenization 💰, including NFTs 🎨 (ERC-721), multi-token standards 🪙 (ERC-1155), and fungible tokens 💵 (ERC-20).**
 
 - Implement tokenization mechanisms for various use cases:
